@@ -4,8 +4,7 @@ import Link from 'next/link'
 import React, { useState } from 'react';
 
 function myFunction() {
-  var element = document.body;
-  element.classList.toggle("dark", "card-dark");
+  document.body.classList.toggle('dark');
 }
 
 export default function Home() {
@@ -29,6 +28,9 @@ export default function Home() {
         <title>Matthew</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <img onClick={() => {setDark(!dark); myFunction();}} style={{ marginLeft: '250px'}} src="/sun.png"></img>
+      
       <div className={styles.main} style={cssProperties}>
         <p className={styles.title}>
           Hi, I'm Matthew
@@ -58,9 +60,6 @@ export default function Home() {
             <p style={{ paddingTop: '3px' }}>Personal</p>
           </div>
         </div>
-
-        <br></br>
-        <button onClick={() => {setDark(!dark); myFunction();}}>Dark</button>
 
       </div>
     </div>
