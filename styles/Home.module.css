@@ -19,7 +19,6 @@
 }
 
 .main {
-  padding: 80px 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -27,7 +26,7 @@
 
 .title {
   font-size: 64px;
-  color: #393E41;
+  color: var(--title-color);
   font-weight: bold;
   text-align: left;
   margin-left: 0;
@@ -37,35 +36,38 @@
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
-  color: #393E41;
+  color:var(--subheader-color);
 }
 
 .text {
   font-size: 24px;
   margin: 0px;
   text-align: left;
+  color: var(--text-color);
 }
 
 .smallheader {
   font-weight: bold;
   font-size: 36px;
-  color: #393341;
+  color: var(--smallheader-color);;
   margin: 0px;
   padding: 15px;
 }
 
 .card {
-  width: 800px;
-  height: 175px;
-  border: 2px solid #1E2019;
+  width: 900px;
+  height: 200px;
+  border: var(--card-border);
   box-sizing: border-box;
   border-radius: 10px;
+  background-color: var(--card-bg-color);
 }
 
 .tag {
   width: 109px;
   height: 31px;
-  background: #587B7F;
+  background-color: var(--tag-bg-color);
+  border: var(--tag-border);
   border-radius: 5px;
   margin: 15px;
   text-align: center;
