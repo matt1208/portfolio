@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Matthew</title>
+        <title>SWC Notes</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -33,39 +33,33 @@ export default function Home() {
       
       <div className={styles.main} style={cssProperties}>
         <p className={styles.title}>
-          Hi, I'm Matthew
+          Students Who Code
         </p>
         <p className={styles.text}>
-          I'm a 16 year old, high school student, athele, and devloper. I am currently working on developing differnt websites and other projects. 
+          Updates and my thoughts about Students Who Code. 
         </p>
 
         <p className={styles.subheader}>
-          Projects
+            Notes 
         </p>
 
         <div className={styles.card}>
-          <p className={styles.smallheader}>Students Who Code <Link href="https://studentswhocode.org/">&rarr;</Link></p>
-          <p style={{ paddingLeft: '15px' }} className={styles.text}>Computer science and coding courses made for middle school and high school students, created by students.</p>
+          <p className={styles.smallheader}>Students Who Code V.2</p>
+          <p style={{ paddingLeft: '15px' }} className={styles.text}>Learn about Students Who Code V.2 and the updates to come in the coming months. Also my thoughts and process for the new version.</p>
           <div className={styles.tag}>
             <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Working On</p>
           </div>
-          <Link href="/swcnotes"><img style={{ display: "inline-block" }} src="/notes.svg"></img></Link>
         </div>
 
         <br></br>
 
-        <div className={styles.card}>
-          <p className={styles.smallheader}>Dive In <Link href="https://swimdivein.com/">&rarr;</Link></p>
-          <p style={{ paddingLeft: '15px' }} className={styles.text}>Dive In is a website focused around swimming and water activities. Dive In offers a blog and free workouts people can download.</p>
-          <div className={styles.tag}>
-            <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Personal</p>
-          </div>
-        </div>
+        
 
         <br></br>
 
         <footer>
-          <Link href="https://github.com/matt1208"><img style={{ cursor: 'pointer' }} src="github.png"></img></Link>
+          <Link href="https://github.com/matt1208"><img style={{ cursor: 'pointer', display: "inline-block" }} src="github.png"></img></Link>
+          <Link href="https://studentswhocode.org"><img style={{ cursor: 'pointer', display: "inline-block", paddingLeft: "10px" }} src="external.png"></img></Link>
         </footer>
 
       </div>
