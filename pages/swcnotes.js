@@ -36,7 +36,7 @@ export default function Home() {
           Students Who Code
         </p>
         <p className={styles.text}>
-          Updates and my thoughts about Students Who Code. 
+          Updates and my thoughts about Students Who Code as I work on developing it. 
         </p>
 
         <p className={styles.subheader}>
@@ -47,7 +47,7 @@ export default function Home() {
           <p className={styles.smallheader}>Students Who Code V.2</p>
           <p style={{ paddingLeft: '15px' }} className={styles.text}>Learn about Students Who Code V.2 and the updates to come in the coming months. Also my thoughts and process for the new version.</p>
           <div className={styles.tag}>
-            <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Working On</p>
+            <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Coming Soon</p>
           </div>
         </div>
 
