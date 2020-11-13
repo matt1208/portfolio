@@ -36,7 +36,7 @@ export default function Home() {
           Hi, I'm Matthew
         </p>
         <p className={styles.text}>
-          I'm a 16 year old, high school student, athlete, and developer. I am currently working on developing differnt websites and other projects. 
+          I'm a 16 year old, high school student, athlete, and developer. I am currently working on developing different websites and other projects. 
         </p>
 
         <p className={styles.subheader}>
@@ -50,7 +50,7 @@ export default function Home() {
             <div className={styles.tag}>
               <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Working On</p>
             </div>
-            <Link href="/swcnotes"><img style={{ display: "inline-block" }} src="/notes.svg"></img></Link>
+            <Link href="/swcnotes"><img style={{ display: "inline-block", cursor: 'pointer' }} src="/notes.svg"></img></Link>
             </div>
         </div>
 
