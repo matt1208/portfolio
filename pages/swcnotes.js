@@ -43,13 +43,13 @@ export default function Home() {
             Notes 
         </p>
 
-        <div className={styles.card}>
+        <Link href="/notes1"><div className={styles.card}>
           <p className={styles.smallheader}>Students Who Code V.2</p>
           <p style={{ paddingLeft: '15px' }} className={styles.text}>Learn about Students Who Code V.2 and the updates to come in the coming months. Also my thoughts and process for the new version.</p>
           <div className={styles.tag}>
             <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Coming Soon</p>
           </div>
-        </div>
+        </div></Link>
 
         <br></br>
 
