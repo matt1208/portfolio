@@ -33,37 +33,13 @@ export default function Home() {
       
       <div className={styles.main} style={cssProperties}>
         <p className={styles.title}>
-          Students Who Code
-        </p>
-        <p className={styles.text}>
-          Updates and my thoughts about Students Who Code as I work on developing it. 
+            Students Who Code Holiday
         </p>
 
-        <p className={styles.subheader}>
-            Notes 
-        </p>
-
-        <Link href="/notes1"><div className={styles.card} style={{ cursor: "pointer" }}>
-          <p className={styles.smallheader}>Students Who Code V.2</p>
-          <p style={{ paddingLeft: '15px' }} className={styles.text}>Learn about Students Who Code V.2 and the updates to come in the coming months. Also my thoughts and process for the new version.</p>
-          <div className={styles.tag}>
-            <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Read Now</p>
-          </div>
-        </div></Link>
+        <p className={styles.text}>Starting on December 5th, Students Who Code received a holiday overlay. I used an npm package, <a href="https://www.npmjs.com/package/resnow" style={{ textDecoration: "underline" }}>resnow</a>, to make snow fall across the home page of Students Who Code. Along with the snow falling overlay to bring some holiday cheer, the first over Students Who Code Holiday Challenge was launched. The challenge tasks participants to create a holiday themed website, weather it was a very simple site or a complex design, the challenge was created to let people show off their creativity and skills.</p>
 
         <br></br>
 
-        <Link href="/notes2"><div className={styles.card} style={{ cursor: "pointer" }}>
-          <p className={styles.smallheader}>Students Who Code Winter</p>
-          <p style={{ paddingLeft: '15px' }} className={styles.text}>Students Who Code got a winter overlay this year.</p>
-          <div className={styles.tag}>
-            <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Read Now</p>
-          </div>
-        </div></Link>
-
-        <br></br>
-
-        
 
         <br></br>
 
