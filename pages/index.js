@@ -36,7 +36,7 @@ export default function Home() {
           Hi, I'm Matthew
         </p>
         <p className={styles.text}>
-          I'm a 16 year old, high school student, athlete, and developer. I am currently working on developing different websites and other projects. 
+          I'm a 17 year old, high school student, athlete, and developer. I am currently working on developing different websites and other projects. 
         </p>
 
         <p className={styles.subheader}>
