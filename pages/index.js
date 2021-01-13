@@ -29,14 +29,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <img onClick={() => {setDark(!dark); myFunction();}} style={{ marginLeft: '100%', marginTop: "20px", cursor: 'pointer'}} src="/sun.png"></img>
-      
+      <img onClick={() => { setDark(!dark); myFunction(); }} style={{ marginLeft: '100%', marginTop: "20px", cursor: 'pointer' }} src="/sun.png"></img>
+
       <div className={styles.main} style={cssProperties}>
         <p className={styles.title}>
           Hi, I'm Matthew
         </p>
         <p className={styles.text}>
-          I'm a 17 year old, high school student, athlete, and developer. I am currently working on developing different websites and other projects. 
+          I'm a 17 year old, high school student, athlete, and developer. I am currently working on developing different websites and other projects.
         </p>
 
         <p className={styles.subheader}>
@@ -51,7 +51,17 @@ export default function Home() {
               <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Working On</p>
             </div>
             <Link href="/swcnotes"><img style={{ display: "inline-block", cursor: 'pointer' }} src="/notes.svg"></img></Link>
-            </div>
+          </div>
+        </div>
+
+        <br></br>
+
+        <div className={styles.card}>
+          <p className={styles.smallheader}>myDash</p>
+          <p style={{ paddingLeft: '15px' }} className={styles.text}>A personal dashboard to track to-do items, projects, and more. I am using Firebase authentication and database, along with Chakra UI.</p>
+          <div className={styles.tag}>
+            <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Personal</p>
+          </div>
         </div>
 
         <br></br>
