@@ -67,7 +67,7 @@ export default function Home() {
         <br></br>
 
         <div className={styles.card}>
-          <p className={styles.smallheader}>Dive In <Link href="https://swimdivein.com/">&rarr;</Link></p>
+          <p className={styles.smallheader}>Dive In</p>
           <p style={{ paddingLeft: '15px' }} className={styles.text}>Dive In is a website focused around swimming and water activities. Dive In offers a blog and free workouts people can download.</p>
           <div className={styles.tag}>
             <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Personal</p>
