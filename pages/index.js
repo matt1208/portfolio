@@ -78,6 +78,7 @@ export default function Home() {
 
         <footer>
           <Link href="https://github.com/matt1208"><img style={{ cursor: 'pointer' }} src="github.png"></img></Link>
+          <p style={{ fontSize: '12px', color: '#393E41' }}>Icons from icons8.com </p>
         </footer>
 
       </div>
