@@ -79,3 +79,22 @@
   align-items: center;
   display: inline-block;
 }
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imagecard {
+  margin: 1rem;
+  flex-basis: 35%;
+  padding: 1.5rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .grid {
+    display: block;
+  }
+}

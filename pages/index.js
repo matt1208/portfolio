@@ -57,7 +57,7 @@ export default function Home() {
         <br></br>
 
         <div className={styles.card}>
-          <p className={styles.smallheader}>myDash</p>
+          <p className={styles.smallheader}>myDash <Link href="/mydash">&rarr;</Link></p>
           <p style={{ paddingLeft: '15px' }} className={styles.text}>A personal dashboard to track to-do items, projects, and more. I am using Firebase authentication and database, along with Chakra UI.</p>
           <div className={styles.tag}>
             <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Personal</p>

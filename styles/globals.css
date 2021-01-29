@@ -30,3 +30,16 @@ a {
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 700px) {
+
+  img[src="mydash-1.png"] {
+    width: 450px;
+  }
+  img[src="mydash-2.png"] {
+    width: 450px;
+  }
+  img[src="mydash-3.png"] {
+    width: 450px;
+  }
+
+}

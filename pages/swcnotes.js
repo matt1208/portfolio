@@ -29,18 +29,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <img onClick={() => {setDark(!dark); myFunction();}} style={{ marginLeft: '100%', marginTop: "20px", cursor: 'pointer'}} src="/sun.png"></img>
-      
+      <img onClick={() => { setDark(!dark); myFunction(); }} style={{ marginLeft: '100%', marginTop: "20px", cursor: 'pointer' }} src="/sun.png"></img>
+
       <div className={styles.main} style={cssProperties}>
         <p className={styles.title}>
           Students Who Code
         </p>
         <p className={styles.text}>
-          Updates and my thoughts about Students Who Code as I work on developing it. 
+          Updates and my thoughts about Students Who Code as I work on developing it.
         </p>
 
         <p className={styles.subheader}>
-            Notes 
+          Notes
         </p>
 
         <Link href="/notes1"><div className={styles.card} style={{ cursor: "pointer" }}>
@@ -63,12 +63,13 @@ export default function Home() {
 
         <br></br>
 
-        
+
 
         <br></br>
 
         <footer>
-          <Link href="https://github.com/matt1208"><img style={{ cursor: 'pointer', display: "inline-block" }} src="github.png"></img></Link>
+          <Link href="/"><img style={{ cursor: 'pointer', display: "inline-block" }} src="home.png"></img></Link>
+          <Link href="https://github.com/matt1208"><img style={{ cursor: 'pointer', display: "inline-block", paddingLeft: "10px" }} src="github.png"></img></Link>
           <Link href="https://studentswhocode.org"><img style={{ cursor: 'pointer', display: "inline-block", paddingLeft: "10px" }} src="external.png"></img></Link>
         </footer>
 
