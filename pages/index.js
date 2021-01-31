@@ -26,7 +26,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Matthew</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/home.png" />
       </Head>
 
       <img onClick={() => { setDark(!dark); myFunction(); }} style={{ marginLeft: '100%', marginTop: "20px", cursor: 'pointer' }} src="/sun.png"></img>
