@@ -30,6 +30,21 @@ a {
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 800px) {
+
+  img[src="divein-1.png"] {
+    width: 650px;
+  }
+  img[src="divein-2.png"] {
+    width: 650px;
+  }
+  img[src="divein-3.png"] {
+    width: 650px;
+  }
+
+}
+
+
 @media screen and (max-width: 700px) {
 
   img[src="mydash-1.png"] {
@@ -40,6 +55,16 @@ a {
   }
   img[src="mydash-3.png"] {
     width: 450px;
+  }
+
+  img[src="divein-1.png"] {
+    width: 470px;
+  }
+  img[src="divein-2.png"] {
+    width: 470px;
+  }
+  img[src="divein-3.png"] {
+    width: 470px;
   }
 
 }
