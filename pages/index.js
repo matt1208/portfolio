@@ -57,7 +57,7 @@ export default function Home() {
         <br></br>
 
         <div className={styles.card}>
-          <p className={styles.smallheader}>BrainDUMP<Link href="">&rarr;</Link></p>
+          <p className={styles.smallheader}>BrainDUMP<Link href="https://braindmp.vercel.app/">&rarr;</Link></p>
           <p style={{ paddingLeft: '15px' }} className={styles.text}>BrainDUMP is my most recent project, where users can log in to keep track and store their most recent thoughts. After wanting one place to store my random thoughts and newest ideas I created BrainDUMP to create a tool tailored to just what I need. </p>
           <div className={styles.tag}>
             <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Working On</p>
