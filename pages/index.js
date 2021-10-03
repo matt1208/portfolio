@@ -60,6 +60,16 @@ export default function Home() {
           <p className={styles.smallheader}>BrainDUMP<Link href="https://braindmp.vercel.app/">&rarr;</Link></p>
           <p style={{ paddingLeft: '15px' }} className={styles.text}>BrainDUMP is my most recent project, where users can log in to keep track and store their most recent thoughts. After wanting one place to store my random thoughts and newest ideas I created BrainDUMP to create a tool tailored to just what I need. </p>
           <div className={styles.tag}>
+            <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Visit Now</p>
+          </div>
+        </div>
+
+        <br></br>
+
+        <div className={styles.card}>
+          <p className={styles.smallheader}>Oakdale Esports<Link href="https://oakdale-esports.vercel.app/">&rarr;</Link></p>
+          <p style={{ paddingLeft: '15px' }} className={styles.text}>Oakdale High Schools Esports site. Web Designer and Developer on the project.</p>
+          <div className={styles.tag}>
             <p style={{ fontSize: '15px', textAlign: 'center', paddingTop: '5px' }} className={styles.text}>Working On</p>
           </div>
         </div>
